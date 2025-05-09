@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin/>
+        <pubdate>20010101</pubdate>
+        <title>Microregion Boundaries: Minas Gerais, Brasil, 2001</title>
+        <edition>1</edition>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace/>
+          <publish>Instituto Brasileiro de Geografia e Estatística</publish>
+        </pubinfo>
+        <onlink>http://purl.stanford.edu/cr765hv7366</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin/>
+            <pubdate>20010101</pubdate>
+            <title>Evolução da divisão territorial do Brasil 1872-2010</title>
+            <edition>1</edition>
+            <pubinfo>
+              <pubplace/>
+              <publish>Instituto Brasileiro de Geografia e Estatística</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This polygon shapefile contains the microregion boundaries for the state of Minas Gerais, Brazil, in 2001. Microregions are legally defined administrative areas in Brazil consisting of groups of municipalities bordering urban areas. Microregions are grouped together into mesoregions. In principle, Brazilian law provides for member municipalities to cooperate on matters of common interest, but in practice, these divisions are primarily used for statistical purposes by the Brazilian Institute of Geography and Statistics. This layer is part of the Evolução da divisão territorial do Brasil 1872 - 2010 dataset, a collection of data representing the evolution of Brazilian states, municipalities and cities.</abstract>
+      <purpose>This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20011231</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-51.045885</westbc>
+        <eastbc>-39.856775</eastbc>
+        <northbc>-14.233299</northbc>
+        <southbc>-22.922749</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>lcsh</themekt>
+        <themekey>Regions</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <place>
+        <placekt>geonames</placekt>
+        <placekey>Minas Gerais (Brazil)</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2001</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>RIGHTS</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Instituto Brasileiro de Geografia e Estatística</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <city>Rio de Janeiro</city>
+          <country>BR</country>
+        </cntaddr>
+        <cntemail>ibge@ibge.gov.br</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Instituto Brasileiro de Geografia e Estatística. (2001). Microregion Boundaries: Minas Gerais, Brazil, 2001. IBGE. Available at: http://purl.stanford.edu/cr765hv7366</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>66</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>31MI2500G</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mslink</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>mapid</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>codigo</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>area_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>perimetro_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>geocodigo</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>nome</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>area_tot_g</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>Mitchell Building, 2nd Floor</address>
+          <address>397 Panama Mall</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>RIGHTS</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150611</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>Mitchell Building, 2nd Floor</address>
+          <address>397 Panama Mall</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
