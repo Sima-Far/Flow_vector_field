@@ -52,20 +52,32 @@ Analyzes spatial dependency and clustering of vector directions and magnitudes.
 ________________________________________
 
 Step 3: Vector Field Interpolation for Cells to Identify Critical Points
-This function enables the interpolation of the vector field across an n x n grid, allowing the analysis of vector dynamics at different spatial resolutions—either finer or coarser than the original divisions.
-o	Inputs:
-o	Origin-Destination (OD) matrix
-o	Coordinates (latitude and longitude)
-o	Shapefile of divisions
-o	Grid size n - The parameter lam used in the initialize function specifies the desired spatial scale—that is, the number of cells along each dimension of the grid.
 
-o	See:
-o	The file "Generate vectors for cells for an arbitrary scale and find sinks and sources.ipynb" for the functions.
-o	 The corresponding section titled "Generate vectors for cells for an arbitrary scale and find sinks and sources" in "Main_analysis_using_functions.ipynb".Find sinks and sources
+This function enables the interpolation of the vector field across an n x n grid, allowing the analysis of vector dynamics at different spatial resolutions—either finer or coarser than the original divisions.
+
+Inputs:
+
+    Origin-Destination (OD) matrix
+
+    Coordinates (latitude and longitude)
+
+    Shapefile of divisions
+
+    Grid size n - The parameter lam used in the initialize function specifies the desired spatial scale—that is, the number of cells along each dimension of the grid.
+
+See:
+    The file "Generate vectors for cells for an arbitrary scale and find sinks and sources.ipynb" for the functions.
+    
+    The corresponding section titled "Generate vectors for cells for an arbitrary scale and find sinks and sources" in "Main_analysis_using_functions.ipynb".Find sinks and sources
+
 To identify critical points (such as sinks, sources, and saddle points), two parameters must be set in the functions find_sinks, find_sources, and find_contours:
-•	tr: Threshold for vector magnitude. If the magnitude at a point is below this threshold, the point is considered a potential critical point.
-•	tr_jacob: Threshold for the Jacobian value, used to classify the type of critical point (e.g., sink, source, or saddle point).
-•	See:
-o	The file "Generate vectors for cells for an arbitrary scale and find sinks and sources.ipynb" for the functions.
-o	Corresponding section named “Generate vectors for cells for an arbitrary scale and find sinks and sources” in Main_analysis_using_functions.ipynb for visualisation
+
+      tr: Threshold for vector magnitude. If the magnitude at a point is below this threshold, the point is considered a potential critical point.
+      tr_jacob: Threshold for the Jacobian value, used to classify the type of critical point (e.g., sink, source, or saddle point).
+
+See:
+
+    The file "Generate vectors for cells for an arbitrary scale and find sinks and sources.ipynb" for the functions.
+    
+Corresponding section named “Generate vectors for cells for an arbitrary scale and find sinks and sources” in Main_analysis_using_functions.ipynb for visualisation
 
